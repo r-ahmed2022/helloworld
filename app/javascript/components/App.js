@@ -2,7 +2,7 @@ import React from 'react';
 import Greeting from './Greeting';
 
 const App = () => (
-  <div>
+ <div>
     <Greeting />
   </div>
 );

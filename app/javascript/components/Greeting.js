@@ -1,19 +1,19 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchGreeting, selectGreeting } from '../redux/greetingSlice';
+import { fetchMessage} from '../redux/greetingSlice';
 
 const Greeting = () => {
-  const greeting = useSelector(selectGreeting);
+  const { message }= useSelector((state) => state.greeting?.message);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchGreeting());
+    dispatch(fetchMessage());
   }, [dispatch]);
 
   return (
     <div>
       <p>Greeting Here:</p>
-      <h2>{greeting}</h2>
+      <h2>{message}</h2>
     </div>
   );
 };
