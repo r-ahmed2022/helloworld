@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-<h3><b>Hello Rails React</b></h3>
+<h3><b>Hello World React</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -10,14 +10,11 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  <!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -26,7 +23,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Hello Rails React <a name="about-project"></a>
+# 📖 Hello world <a name="about-project"></a>
 
 A practice setup of a React-Rails app.
 
@@ -42,11 +39,6 @@ A practice setup of a React-Rails app.
 
 - **API backend using RoR**
 - **React Frontend**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### 🚀 Live Demo
-No demo available
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +86,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **NA**
+- **Button Component to fetch new greetings**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
