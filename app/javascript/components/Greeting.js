@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchMessage} from '../redux/greetingSlice';
+import { fetchMessage} from '../redux/messageSlice';
 
 const Greeting = () => {
   const { message }= useSelector((state) => state.greeting?.message);
@@ -12,7 +12,7 @@ const Greeting = () => {
 
   return (
     <div>
-      <p>Greeting Here:</p>
+      <p>Message here</p>
       <h2>{message}</h2>
     </div>
   );
